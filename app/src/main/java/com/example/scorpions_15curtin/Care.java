@@ -4,7 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< Updated upstream
 import androidx.recyclerview.widget.LinearLayoutManager;
+=======
+>>>>>>> Stashed changes
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
@@ -15,6 +18,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+<<<<<<< Updated upstream
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,6 +27,11 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
+=======
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+>>>>>>> Stashed changes
 
 public class Care extends AppCompatActivity {
 
@@ -41,6 +50,11 @@ public class Care extends AppCompatActivity {
         setContentView(R.layout.activity_care);
 
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
         //Initialize and assign variables
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
